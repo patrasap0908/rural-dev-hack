@@ -12,9 +12,9 @@ localStorage = new LocalStorage('./.scratch');
 
 var connection = mysql.createConnection({
   host     : 'localhost',
-  user     : 'vishal',
+  user     : 'abhishek',
   port      : 3306,
-  password : 'vishal',
+  password : 'abhishek',
   database : 'DBMSMiniProject'
 });
 
