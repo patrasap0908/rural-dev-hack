@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 app.use(express.static(__dirname));
 var LocalStorage = require('node-localstorage').LocalStorage,
 localStorage = new LocalStorage('./.scratch');
-
+//MySQL connection
 var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'abhishek',
